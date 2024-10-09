@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+# repository: haanh764/modern-resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -22,12 +22,12 @@ github_username:  haanh764
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-# linkedin_username: jameswgrant
+linkedin_username: anh-ha-ngo
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+orcid_username: 0009-0002-6902-007X
 
 # Additional icon links
 # additional_links:
@@ -46,78 +46,101 @@ github_username:  haanh764
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile_1.jpg
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, my name is Ha Anh NGO, and I'm a first-year PhD student specializing in <mark>Multimodal models of repair in social human-agent interaction</mark>. Before my doctoral studies, I got a Master's degree in Applied Computer Science from Wroclaw University of Science and Technology in Poland, where I worked on some CLARIN-PL projects focused on text-based emotion recognition.
+  Hello, my name is Ha Anh NGO, and I'm a first-year PhD student in the [ALMAnaCH lab](https://almanach.inria.fr/index-en.html) at Inria Paris, specializing in <mark>Multimodal models of repair in social human-agent interaction</mark>. Before my doctoral studies, I got a Master's degree in Applied Computer Science from Wroclaw University of Science and Technology in Poland, where I worked on some CLARIN-PL projects focused on text-based emotion recognition.
   Outside of research, I enjoy reading, traveling, and capturing memories through photography.
 
 content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-left
         title: PhD in Computer Science
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
+        caption: 2024 - Present
+        sub_title: Inria Paris, Sorbonne University (Paris, France)
+        # quote: >
 
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          My research focuses on multimodal models of repair in social human-agent interaction. I am interested in conversaional repair strategies in human-human interaction, and how this can be modeled and implemented in human-agent systems.
+      - layout: top-left
+        title: MSc in Applied Computer Science
+        caption: 2021 - 2023
+        sub_title: Wroclaw University of Science and Technology (Wroclaw, Poland)
+        description: | # this will include new lines to allow paragraphs
+          My Master's thesis focused on personalized model for emotion recognition with explainability using differential data map.
+      - layout: top-left
+        title: BSc in Computer Science
+        caption: 2014 - 2017
+        sub_title: University of Science and Technology Hanoi (Hanoi, Vietnam)
+        description: | # this will include new lines to allow paragraphs
+          My Bachelor's thesis focused on optimization algorithms for the land lot division and allocation problem using Genetic Algorithms. I developed a software tool that can automatically divide and allocate land lots that satisfied architectural rules and government rules.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: Projects # Title for the section
+  - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+      - layout: top-left
+        title: 2024/
+        # link: github.com/sproogen
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          **Anh Ngo**, Dirk Heylen, Nicolas Rollet, Catherine Pelachaud, and Chloé Clavel. 2024. [Exploration of Human Repair Initiation in Task-oriented Dialogue: A Linguistic Feature-based Approach](https://aclanthology.org/2024.sigdial-1.51/). In Proceedings of the 25th Annual Meeting of the Special Interest Group on Discourse and Dialogue, pages 603–609, Kyoto, Japan. Association for Computational Linguistics.
+      - layout: top-left
+        title: 2023/
+        # link: github.com/sproogen
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        description: |
+          Bartłomiej Koptyra, **Anh Ngo**, Łukasz Radliński, and Jan Kocoń. 2023. [CLARIN-Emo: Training Emotion Recognition Models Using Human Annotation and ChatGPT](https://doi.org/10.1007/978-3-031-35995-8_26). In Computational Science – ICCS 2023: 23rd International Conference, Prague, Czech Republic, July 3–5, 2023, Proceedings, Part I. Springer-Verlag, Berlin, Heidelberg, 365–379.
+      - layout: top-left
+        title: 2022/
+        # link: github.com/sproogen
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        description: |
+          **Anh Ngo**, Agri Candri, Teddy Ferdinan, Jan Kocon, and Wojciech Korczynski. 2022. [StudEmo: A Non-aggregated Review Dataset for Personalized Emotion Recognition](https://aclanthology.org/2022.nlperspectives-1.7/). In Proceedings of the 1st Workshop on Perspectivist Approaches to NLP @LREC2022, pages 46–55, Marseille, France.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+  # - title: Experience # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: The Boring Company
+  #       link: boringcompany.com
+  #       # link_text: boringcompany.com
+  #       sub_title: Senior Network System Administrator
+  #       caption: November 2017 - Present
+  #       quote: >
+  #         Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  #       description: | # this will include new lines to allow paragraphs
+  #           Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Alongside my interests in doing research some of my other hobbies include:
+      - Traveling 🧳
+      - Reading 📖
+      - Sketching 🎨
+      - Photography 📷
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: haanh764/modern-resume-theme
 
 sass:
   sass_dir: _sass
