@@ -81,6 +81,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-left
+        title: 2026/
+        description: |
+          **Anh Ngo**, Nicolas Rollet, Catherine Pelachaud, and Chloé Clavel. 2026. [Do Visual Features Improve Other-Initiated Repair Detection? A Dyadic Multimodal Approach](https://dl.acm.org/doi/10.1145/3776574.3831200). In Proceedings of the 28th International Conference on Multimodal Interaction (ICMI '26). Association for Computing Machinery, New York, NY, USA, 873–882.
+
+      - layout: top-left
+        title: 2026/
+        description: |
+          **Anh Ngo**, Nicolas Rollet, Catherine Pelachaud, and Chloé Clavel. 2026. [Human vs LLM in Conversational Repair Annotation: A New Resource and Comparative Study](https://lrec.elra.info/lrec2026-main-547). In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pages 6880–6892. European Language Resources Association (ELRA).
+
+      - layout: top-left
+        title: 2025/
+        description: |
+          **Anh Ngo**, Nicolas Rollet, Catherine Pelachaud, and Chloé Clavel. 2025. [“Mm, Wat?” Detecting Other-initiated Repair Requests in Dialogue](https://aclanthology.org/2025.emnlp-main.1168/). In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 22926–22939, Suzhou, China. Association for Computational Linguistics.
+
+      - layout: top-left
+        title: 2025/
+        description: |
+          **Anh Ngo** and Jan Kocoń. 2025. [Integrating personalized and contextual information in fine-grained emotion recognition in text: A multi-source fusion approach with explainability](https://doi.org/10.1016/j.inffus.2025.102966). Information Fusion, 118, 102966.
+
+      - layout: top-left
         title: 2024/
         # link: github.com/sproogen
         # link_text: Project Website
